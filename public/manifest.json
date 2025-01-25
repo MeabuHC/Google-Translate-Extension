@@ -2,12 +2,14 @@
     "manifest_version": 3,
     "version": "1.0.0",
     "name": "Google Translate",
+    "description": "Quick translate without open a new google translate tab made by Meabu",
     "action": {
         "default_popup": "index.html"
     },
     "permissions": [
         "activeTab",
-        "scripting"
+        "scripting",
+        "storage"
     ],
     "host_permissions": [
         "http://*//*",
@@ -22,6 +24,8 @@
         }
     },
     "icons": {
-        "32": "icon32.png"
+        "32": "icon32.png",
+        "64": "icon32.png",
+        "128": "icon32.png"
     }
 }
